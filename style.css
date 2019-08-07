@@ -1,0 +1,95 @@
+/*.................global section........................................ */
+    
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        color: blue
+    }
+
+    p{
+        font-size: 20px;
+    }
+        a{
+            text-decoration: none;
+            color:#ed145a; 
+            display: inline-block;
+        }
+        a:hover{
+            color: black;
+        }
+    /*.............header section..................................... */
+    header {
+        position: relative;
+    }
+    nav {
+        position: absolute;
+        top: 4px;
+        left: 70%;
+    }
+    nav a{
+        padding: 10px;
+    }
+    /* main...................................................... */
+    #hero-img {
+      background-image: url(./jollof\ rice.PNG);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      color: rgb(236, 205, 205);
+      text-shadow: 2px 2px 2px black;
+      text-align: center;
+    }
+    .alpha-img {
+        padding: 10%;
+        background: rgba(70, 130, 180, 0.1);
+    } 
+    .alpha-img h2 {
+        font-size: 40px;
+        text-transform: capitalize;
+    }
+    .alpha-img p {
+font-size: 25px;
+color: chartreuse;
+line-height: 50px;
+    }
+    .main-wrapper {
+        width: 85%;
+        margin: 0 auto;
+            background-color: #D3C5A3;
+    }
+    .flex-display {
+        display: -webkit-flex;
+    }
+    .card {
+        border: 2px solid #eee;
+        box-shadow: 0 1px 3px #ccc;
+        width: 40%;
+        border-radius: 5px;
+    }
+    .card ul{
+        font-family: cursive;
+    }
+    .card p{
+        font-family: cursive;
+    }
+    .item{
+        padding-left: 1em;
+        margin-right: 2%;
+        width: 48%;
+        margin: 1em;
+    }
+    /* footer-------------------------------------------------- */
+    footer{
+        justify-content: space-between;
+        align-items: right;
+    }
+    footer p {
+        text-align: right;
+        color:red;
+    }
+    .list {
+       color: #ed145a 
+    }
